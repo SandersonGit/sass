@@ -51,10 +51,57 @@ Certifique-se de ter o Node.js instalado no seu sistema. Siga as instruções no
 - Instale dependências usando o comando `npm install`.
 - Gerencie pacotes com o NPM (Node Package Manager).
 
-### Contribuições
+# Utilização de Variáveis, Encapsulamento e Compilação Automática no SASS
+
+Este guia apresenta instruções sobre como criar e utilizar variáveis no SASS para armazenar valores, encapsular regras e seletores, e configurar a compilação automática do código SASS para CSS.
+
+## Variáveis no SASS
+
+As variáveis no SASS permitem armazenar valores que podem ser reutilizados em todo o código. Para criar e utilizar variáveis:
+
+```scss
+// Exemplo de variável
+$cor-primaria: #3498db;
+
+// Utilização da variável
+elemento {
+  color: $cor-primaria;
+}
+```
+
+## Encapsulamento de Regras e Seletores
+
+O SASS facilita o encapsulamento de regras e seletores para uma melhor organização do código. Utilize aninhamento para encapsular:
+
+```scss
+// Exemplo de encapsulamento
+seletor-pai {
+  propriedade: valor;
+
+  seletor-filho {
+    propriedade: valor;
+  }
+}
+```
+
+## Compilação Automática do Código SASS para CSS
+
+Para configurar a compilação automática do código SASS para CSS, utilize a linha de comando ou ferramentas como Gulp ou Webpack. Exemplo usando a linha de comando:
+
+1. Abra o terminal.
+2. Navegue até o diretório do seu projeto.
+3. Execute o comando:
+
+   ```bash
+   sass --watch arquivo-sass.scss:arquivo-css.css
+   ```
+
+   Isso monitorará alterações no arquivo SASS e automaticamente compilará para CSS.
+
+## Contribuições
 
 Sinta-se à vontade para contribuir com melhorias ou correções, abrindo uma issue ou enviando um pull request.
 
-### Licença
+## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).

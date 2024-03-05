@@ -4,7 +4,7 @@
   "description": "Node.js and SASS Setup\r Este repositório fornece instruções para a conceituação e instalação do Node.js, bem como a definição e instalação do pacote SASS (Syntactically Awesome Stylesheets).",
   "main": "index.js",
   "scripts": {
-    "sass": "sass",
+    "sass": "sass src/main.scss build/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

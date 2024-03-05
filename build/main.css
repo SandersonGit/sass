@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #602626;
+}
+
+header {
+  background-color: #ec4747;
+}
+header h1 {
+  color: #f5eded;
+}
+
+button {
+  padding: 16px;
+  background-color: #602626;
+  color: #f5eded;
+}
+button:hover {
+  background-color: #ec4747;
+  border-radius: 50%;
+  transition: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
