@@ -105,3 +105,58 @@ Sinta-se à vontade para contribuir com melhorias ou correções, abrindo uma is
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+# Organização de Código em Módulos com SASS
+
+Este guia destaca a importância de dividir o código de estilos em módulos separados, organizar códigos em módulos, criar variáveis para armazenar cores, estilos e outros valores, e importar módulos e variáveis em arquivos SASS.
+
+## Importância de Dividir o Código em Módulos
+
+Dividir o código de estilos em módulos oferece diversos benefícios, como melhor legibilidade, manutenção simplificada e reutilização eficiente de estilos em diferentes partes do projeto.
+
+## Organização de Códigos em Módulos
+
+Organizar o código em módulos pode ser feito criando arquivos específicos para diferentes partes do seu projeto. Por exemplo:
+
+```plaintext
+styles/
+|-- base/
+|   |-- _variables.scss
+|   |-- _typography.scss
+|-- components/
+|   |-- _buttons.scss
+|   |-- _navigation.scss
+|-- main.scss
+```
+
+## Criação de Variáveis para Armazenar Valores
+
+Utilize variáveis para armazenar valores como cores, estilos e medidas. Isso facilita a manutenção e a atualização consistente do design. Exemplo:
+
+```scss
+// _variables.scss
+$cor-primaria: #3498db;
+$fonte-principal: 'Roboto', sans-serif;
+```
+
+## Importação de Módulos e Variáveis em Arquivos SASS
+
+Para importar módulos e variáveis em arquivos SASS, utilize a diretiva `@import`. Exemplo:
+
+```scss
+// main.scss
+@import 'base/variables';
+@import 'base/typography';
+@import 'components/buttons';
+@import 'components/navigation';
+```
+
+Isso garante que as variáveis e estilos definidos nos módulos sejam disponibilizados no arquivo principal, proporcionando uma estrutura organizada e modular.
+
+## Contribuições
+
+Fique à vontade para contribuir com melhorias ou correções, abrindo uma issue ou enviando um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
