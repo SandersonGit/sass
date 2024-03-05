@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Node.js and SASS Setup\r Este repositório fornece instruções para a conceituação e instalação do Node.js, bem como a definição e instalação do pacote SASS (Syntactically Awesome Stylesheets).",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandersonGit/sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandersonGit/sass/issues"
+  },
+  "homepage": "https://github.com/SandersonGit/sass#readme",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}

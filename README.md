@@ -22,7 +22,29 @@ Digite npm install -g sass para instalar globalmente o pacote SASS.
 Após a instalação, você pode criar arquivos SASS com extensão .scss e compilá-los usando sass input.scss output.css.
 Utilize o SASS para escrever estilos de forma eficiente e organizada em seus projetos.
 Contribuições
-Fique à vontade para contribuir com melhorias ou correções. Abra uma issue ou envie um pull request.
 
-Licença
-Este projeto está licenciado sob a Licença MIT.
+SASS and SCSS Syntax Understanding and Setup
+Este guia oferece instruções para compreender e diferenciar a sintaxe do SASS e SCSS, configurar o uso do SASS, compilar código SASS em código CSS, e gerenciar dependências e pacotes.
+
+SASS e SCSS Syntax
+O SASS (Syntactically Awesome Stylesheets) e o SCSS são extensões do CSS que adicionam funcionalidades avançadas. Enquanto o SASS utiliza uma sintaxe mais concisa, o SCSS adota uma abordagem mais próxima do CSS padrão.
+
+Configuração do SASS
+Instalação do Node.js:
+Certifique-se de ter o Node.js instalado. Siga as instruções no site oficial do Node.js.
+
+Instalação do SASS:
+Abra o terminal e digite npm install -g sass para instalar globalmente o pacote SASS.
+
+Compilação de Código SASS
+Criação de Arquivos:
+Utilize a extensão .sass para SASS ou .scss para SCSS ao criar seus arquivos.
+
+Compilação:
+
+Para SASS: sass input.sass output.css
+Para SCSS: sass input.scss output.css
+Gerenciamento de Dependências
+Utilize o arquivo package.json para listar dependências e suas versões.
+Instale dependências usando o comando npm install.
+Gerencie pacotes com o NPM (Node Package Manager).
