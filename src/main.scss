@@ -1,35 +1,6 @@
-$corPrimarial: #602626;
-$corSecundaria: #ec4747;
-$corTexto: #f5eded;
+@use 'produtos';
+@use 'reset';
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    background-color: $corPrimarial;
-}
-
-header {
-    background-color: $corSecundaria;
-
-    h1 {
-        color: $corTexto;
-    }
-}
-
-button {
-    padding: 16px;
-    background-color: $corPrimarial;
-    color: $corTexto;
-    
-        &:hover {
-            background-color: $corSecundaria;
-            border-radius: 50%;
-            transition: 1.0;
-        }
-    }
    
     
